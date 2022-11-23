@@ -1,0 +1,16 @@
+import numpy as np
+#a = np.arange(12).reshape(3, 4)
+#a[0, : ]= [10, 11, 12, 13]
+#print(a)
+
+
+#b = np.arange(12)
+#b[[0, 0, 0]]  += 2
+#print(b)
+
+#rng = np.random.default_rng()
+#print(rng.integers(10, size = (2, 3, 6)))
+a = np.arange(30).reshape(15, 2)
+print(a)
+
+np.save("firstSave",a )
