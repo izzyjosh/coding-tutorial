@@ -271,23 +271,23 @@
 
 
 
-#def pattern():
-#	count = 0
-#	space = 0
-#	while count < 30:
-#		if count <15:
-#			print(space* " ", 15*"*")
-#			space += 1
-#			count += 1
-#		elif count >= 15:
-#			print(space*" ", 15*"*")
-#			space -=1
-#			count += 1
-#			
-#count = 0
-#while count <2:			
-#	pattern()
-#	count += 1
+def pattern():
+	count = 0
+	space = 0
+	while count < 30:
+		if count <15:
+			print(space* " ", 15*"*")
+			space += 1
+			count += 1
+		elif count >= 15:
+			print(space*" ", 15*"*")
+			space -=1
+			count += 1
+			
+count = 0
+while count <2:			
+	pattern()
+	count += 1
 #	
 	
 #stop = 20

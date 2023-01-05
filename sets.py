@@ -9,7 +9,7 @@ my_set = set()
 
 #to add
 #my_set.add(6)
-my_set.add("4")
+my_set.add('4')
 my_set.add(6)
 my_set.add(True)
 
